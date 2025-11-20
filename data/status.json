@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-20T20:20:48.803838+00:00",
+  "updatedAt": "2025-11-20T20:40:22.981990+00:00",
   "services": [
     {
       "name": "Azure",
@@ -45,8 +45,8 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://jira-software.status.atlassian.com"
     },
     {
@@ -64,7 +64,7 @@
     {
       "name": "CucumberStudio",
       "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Max retries exceeded with url: /api/v2/summary.json (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Max retries exceeded with url: /api/v2/summary.json (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'status.cucumberstudio.com'. (_ssl.c:1016)\")))",
       "source": "https://status.cucumberstudio.com"
     },
     {
