@@ -1,4 +1,89 @@
 {
-  "updatedAt": "",
-  "services": []
+  "updatedAt": "2025-11-20T07:40:33.412863+00:00",
+  "services": [
+    {
+      "name": "Azure",
+      "status": "Operational",
+      "description": "No active events",
+      "source": "https://azure.status.microsoft/"
+    },
+    {
+      "name": "Azure DevOps",
+      "status": "Operational",
+      "description": "Everything is looking good",
+      "source": "https://status.dev.azure.com/"
+    },
+    {
+      "name": "Azure Databricks",
+      "status": "Unknown",
+      "description": "Fetch error: 404 Client Error: Not Found for url: https://status.azuredatabricks.net/api/v2/summary.json",
+      "source": "https://status.azuredatabricks.net"
+    },
+    {
+      "name": "JFrog",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://status.jfrog.io"
+    },
+    {
+      "name": "Elastic",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://status.elastic.co"
+    },
+    {
+      "name": "Octopus Deploy",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://status.octopus.com"
+    },
+    {
+      "name": "Lucid",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://status.lucid.co"
+    },
+    {
+      "name": "Jira",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://jira-software.status.atlassian.com"
+    },
+    {
+      "name": "Confluence",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://confluence.status.atlassian.com"
+    },
+    {
+      "name": "GitHub",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://www.githubstatus.com"
+    },
+    {
+      "name": "CucumberStudio",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Max retries exceeded with url: /api/v2/summary.json (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'status.cucumberstudio.com'. (_ssl.c:1016)\")))",
+      "source": "https://status.cucumberstudio.com"
+    },
+    {
+      "name": "Fivetran",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://status.fivetran.com"
+    },
+    {
+      "name": "Port",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "source": "https://status.port.io"
+    },
+    {
+      "name": "Brainboard",
+      "status": "Operational",
+      "description": "Aggregate state: operational",
+      "source": "https://status.brainboard.co"
+    }
+  ]
 }
