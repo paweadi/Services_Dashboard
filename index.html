@@ -1,11 +1,31 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Status Dashboard</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Markel Services Status</title>
+  <style>
+    :root{
+      --bg:#0f172a; --fg:#e2e8f0; --muted:#94a3b8; --border:#334155;
+      --up-bg:#10b981; --up-fg:#052e2b; --down-bg:#ef4444; --down-fg:#2f0d0d; --deg-bg:#f59e0b; --deg-fg:#3b2600;
+    }
+    *{box-sizing:border-box}
+    body{margin:0; background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif}
+    header{padding:24px 16px; border-bottom:1px solid var(--border)}
+    h1{margin:0 0 6px}
+   ts{color:var(--muted); margin-top:4px}
+    main{padding:16px}
+    table{width:100%; border-collapse:collapse}
+    th,td{padding:12px; border-bottom:1px solid var(--border); text-align:left; vertical-align:top}
+    th{color:#cbd5e1; font-weight:600}
+    .badge{padding:4px 10px; border-radius:999px; font-size:12px; background:#334155; display:inline-block}
+    .badge.up{background:var(--up-bg); color:var(--up-fg)}
+    .badge.down{background:var(--down-bg); color:var(--down-fg)}
+    .badge.degraded{background:var(--deg-bg); color:var(--deg-fg)}
+    a{color:#93c5fd; text-decoration:none}
+    .foot{color:var(--muted); padding:12px 16px; border-top:1px solid var(--border)}
+    .empty{color:var(--muted); padding:20px 0}
+  </style>
 </head>
 <body>
   <header>
@@ -14,7 +34,7 @@
   </header>
 
   <main>
-    <table>
+    <table aria-label="Service status table">
       <thead>
         <tr>
           <th>Service</th>
@@ -23,44 +43,73 @@
           <th>Source</th>
         </tr>
       </thead>
-      <tbody id="statusTable"></tbody>
+      <tbody id="statusTable">
+        <tr><td colspan="4" class="empty">Loading status…</td></tr>
+      </tbody>
     </table>
   </main>
 
   <footer>
-    <p class="foot">Auto-refreshed every 60s.</p>
+    <p class="foot">Auto-refreshed every 60s. Data provided via GitHub Actions.</p>
   </footer>
 
   <script>
-  async function refreshStatus(){
-    try{
-      const res = await fetch('./data/status.json?_ts=' + Date.now());
-      const data = await res.json();
-      const tbody = document.getElementById('statusTable');
-      tbody.innerHTML = '';
-      (data.services || []).forEach(item => {
-        const s = (item.status || 'Unknown');
-        const cls = s.toLowerCase().includes('operational') ? 'badge up'
-                 : s.toLowerCase().includes('degraded') ? 'badge degraded'
-                 : (s.toLowerCase().includes('outage') || s.toLowerCase().includes('down')) ? 'badge down'
-                 : s.toLowerCase().includes('maintenance') ? 'badge degraded'
-                 : 'badge';
-        tbody.insertAdjacentHTML('beforeend', `
-          <tr>
-            <td>${item.name}</td>
-            <td><span class="${cls}">${s}</span></td>
-            <td>${item.description || '—'}</td>
-            <td><a href="${ce}${item.name}</a></td>
-          </tr>
-        `);
-      });
-      document.getElementById('lastUpdated').textContent = new Date(data.updatedAt).toLocaleString();
-    }catch(e){
-      console.error('Failed to load status.json', e);
+    function badgeClass(status) {
+      const s = (status || "").toLowerCase();
+      if (s.includes("operational")) return "badge up";
+      if (s.includes("degraded")) return "badge degraded";
+      if (s.includes("partial") || s.includes("outage") || s.includes("down") || s.includes("major")) return "badge down";
+      if (s.includes("maintenance")) return "badge degraded";
+      return "badge";
     }
-  }
-  refreshStatus();
-  setInterval(refreshStatus, 60_000);
+
+    async function refreshStatus() {
+      try {
+        const res = await fetch('./data/status.json?_ts=' + Date.now());
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+
+        const tbody = document.getElementById('statusTable');
+        tbody.innerHTML = '';
+
+        const services = Array.isArray(data.services) ? data.services : [];
+        if (services.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="4" class="empty">No data available.</td></tr>';
+        } else {
+          services.forEach(item => {
+            const s = item.status || 'Unknown';
+            const cls = badgeClass(s);
+            const desc = (item.description || '—')
+              .toString()
+              .replace(/</g,'&lt;').replace(/>/g,'&gt;');
+            const name = (item.name || 'Source').toString().replace(/</g,'&lt;').replace(/>/g,'&gt;');
+            const src = (item.source || '#');
+
+            tbody.insertAdjacentHTML('beforeend', `
+              <tr>
+                <td>${name}</td>
+                <td><span class="${cls}">${s}</span></td>
+                <td>${desc}</td>
+                <td>${src}${name}</a></td>
+              </tr>
+            `);
+          });
+        }
+
+        const ts = data.updatedAt ? new Date(data.updatedAt) : null;
+        document.getElementById('lastUpdated').textContent =
+          ts && !isNaN(ts) ? ts.toLocaleString() : '—';
+
+      } catch (e) {
+        console.error('Failed to load status.json', e);
+        const tbody = document.getElementById('statusTable');
+        tbody.innerHTML = '<tr><td colspan="4" class="empty">Unable to load data. Please try again shortly.</td></tr>';
+        document.getElementById('lastUpdated').textContent = '—';
+      }
+    }
+
+    refreshStatus();
+    setInterval(refreshStatus, 60_000);
   </script>
 </body>
 </html>
