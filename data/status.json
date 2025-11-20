@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-20T08:29:28.949903+00:00",
+  "updatedAt": "2025-11-20T08:53:01.759549+00:00",
   "services": [
     {
       "name": "Azure",
@@ -15,8 +15,8 @@
     },
     {
       "name": "Azure Databricks",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 404 Client Error: Not Found for url: https://status.azuredatabricks.net/api/v2/summary.json",
       "source": "https://status.azuredatabricks.net"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Max retries exceeded with url: /api/v2/summary.json (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'status.cucumberstudio.com'. (_ssl.c:1016)\")))",
       "source": "https://status.cucumberstudio.com"
     },
     {
