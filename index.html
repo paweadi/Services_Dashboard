@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Status Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Service Status</h1>
+    <div class="ts">Last updated: <span id="lastUpdated">—</span></div>
+  </header>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Status</th>
+          <th>Description</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody id="statusTable"></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p class="foot">Auto-refreshed every 60s. Data provided via GitHub Actions.</p>
+  </footer>
+
+  <script>
+  async function refreshStatus(){
+    try{
+      const res = await fetch('./data/status.json?_ts=' + Date.now());
+      const data = await res.json();
+      const tbody = document.getElementById('statusTable');
+      tbody.innerHTML = '';
+      (data.services || []).forEach(item => {
+        const s = (item.status || 'Unknown');
+        const cls = s.toLowerCase().includes('operational') ? 'badge up'
+                 : s.toLowerCase().includes('degraded') ? 'badge degraded'
+                 : (s.toLowerCase().includes('outage') || s.toLowerCase().includes('down')) ? 'badge down'
+                 : s.toLowerCase().includes('maintenance') ? 'badge degraded'
+                 : 'badge';
+        tbody.insertAdjacentHTML('beforeend', `
+          <tr>
+            <td>${item.name}</td>
+            <td><span class="${cls}">${s}</span></td>
+            <td>${item.description || '—'}</td>
+            <td><a href="${item.source}" target="_blank" rel="noopener">Source</a></td>
+          </tr>
+        `);
+      });
+      document.getElementById('lastUpdated').textContent = new Date(data.updatedAt).toLocaleString();
+    }catch(e){
+      console.error('Failed to load status.json', e);
+    }
+  }
+  refreshStatus();
+  setInterval(refreshStatus, 60_000);
+  </script>
+</body>
+</html>
