@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-21T05:39:44.310354+00:00",
+  "updatedAt": "2025-11-21T05:52:51.510480+00:00",
   "services": [
     {
       "name": "Azure",
@@ -27,8 +27,8 @@
     },
     {
       "name": "Elastic",
-      "status": "Partial Outage",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.elastic.co"
     },
     {
