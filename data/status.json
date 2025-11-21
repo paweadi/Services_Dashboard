@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-21T22:23:50.051602+00:00",
+  "updatedAt": "2025-11-21T22:40:26.871562+00:00",
   "services": [
     {
       "name": "Azure",
@@ -27,8 +27,8 @@
     },
     {
       "name": "Elastic",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.elastic.co', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.elastic.co"
     },
     {
