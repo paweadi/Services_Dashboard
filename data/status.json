@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-21T09:27:48.944371+00:00",
+  "updatedAt": "2025-11-21T09:45:14.725884+00:00",
   "services": [
     {
       "name": "Azure",
@@ -33,8 +33,8 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Unknown",
-      "description": "Fetch error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.octopus.com"
     },
     {
