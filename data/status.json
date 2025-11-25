@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-25T14:49:30.357931+00:00",
+  "updatedAt": "2025-11-25T15:14:03.345081+00:00",
   "services": [
     {
       "name": "Azure",
@@ -33,8 +33,8 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Degraded",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.octopus.com"
     },
     {
