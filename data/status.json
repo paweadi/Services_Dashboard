@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-26T13:56:24.761456+00:00",
+  "updatedAt": "2025-11-26T14:30:00.368654+00:00",
   "services": [
     {
       "name": "Azure",
@@ -63,14 +63,14 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Max retries exceeded with url: /api/v2/summary.json (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'status.cucumberstudio.com'. (_ssl.c:1016)\")))",
       "source": "https://status.cucumberstudio.com"
     },
     {
       "name": "Fivetran",
-      "status": "Degraded",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.fivetran.com"
     },
     {
