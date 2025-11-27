@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-27T08:37:53.395218+00:00",
+  "updatedAt": "2025-11-27T08:57:30.427150+00:00",
   "services": [
     {
       "name": "Azure",
@@ -70,13 +70,13 @@
     {
       "name": "Fivetran",
       "status": "Degraded",
-      "description": "Partially Degraded Service",
+      "description": "Minor Service Outage",
       "source": "https://status.fivetran.com"
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://status.port.io"
     },
     {
