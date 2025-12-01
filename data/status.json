@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-01T08:16:11.587525+00:00",
+  "updatedAt": "2025-12-01T08:49:07.623813+00:00",
   "services": [
     {
       "name": "Azure",
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Fetch error: 504 Server Error: Gateway Time-out for url: https://status.cucumberstudio.com/api/v2/summary.json",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.cucumberstudio.com"
     },
     {
