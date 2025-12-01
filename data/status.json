@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-01T20:57:16.748854+00:00",
+  "updatedAt": "2025-12-01T21:24:08.754143+00:00",
   "services": [
     {
       "name": "Azure",
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='cucumber.status.smartbear.com', port=443): Max retries exceeded with url: /api/v2/summary.json (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7fd5186b7f10>: Failed to resolve 'cucumber.status.smartbear.com' ([Errno -2] Name or service not known)\"))",
       "source": "https://status.cucumberstudio.com"
     },
     {
