@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-02T20:50:43.618713+00:00",
+  "updatedAt": "2025-12-02T21:14:57.359706+00:00",
   "services": [
     {
       "name": "Azure",
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 530 Server Error:  for url: https://cucumber.status.smartbear.com/api/v2/summary.json",
       "source": "https://status.cucumberstudio.com"
     },
     {
