@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-03T09:41:06.131931+00:00",
+  "updatedAt": "2025-12-03T09:55:29.923833+00:00",
   "services": [
     {
       "name": "Azure",
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: Expecting value: line 1 column 1 (char 0)",
       "source": "https://status.cucumberstudio.com"
     },
     {
