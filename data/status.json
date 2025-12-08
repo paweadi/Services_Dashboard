@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2025-12-08T19:43:13.936570+00:00",
+  "updatedAt": "2025-12-08T19:56:16.607395+00:00",
   "services": [
     {
       "name": "Azure",
       "status": "Degraded",
-      "description": "Active – Service Management Issues in Azure Government Regions",
+      "description": "Mitigated – Service Management Issues in Azure Government Regions",
       "source": "https://azure.status.microsoft/"
     },
     {
