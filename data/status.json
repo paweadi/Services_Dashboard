@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2025-12-08T10:11:58.765206+00:00",
+  "updatedAt": "2025-12-08T10:44:03.438762+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "No active events",
+      "status": "Degraded",
+      "description": "Active – Failed to Load Azure Resources in Azure China Regions",
       "source": "https://azure.status.microsoft/"
     },
     {
