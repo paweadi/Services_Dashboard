@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-10T10:34:41.940332+00:00",
+  "updatedAt": "2025-12-10T10:55:23.844173+00:00",
   "services": [
     {
       "name": "Azure",
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://status.port.io"
     },
     {
