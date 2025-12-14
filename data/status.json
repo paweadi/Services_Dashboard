@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-14T07:55:01.282042+00:00",
+  "updatedAt": "2025-12-14T08:33:04.465712+00:00",
   "services": [
     {
       "name": "Azure",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.lucid.co', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.lucid.co"
     },
     {
