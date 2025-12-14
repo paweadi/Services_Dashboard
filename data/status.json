@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-14T10:13:06.637728+00:00",
+  "updatedAt": "2025-12-14T10:38:28.873616+00:00",
   "services": [
     {
       "name": "Azure",
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.cucumberstudio.com"
     },
     {
