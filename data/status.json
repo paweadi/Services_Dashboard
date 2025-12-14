@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-14T09:49:41.855423+00:00",
+  "updatedAt": "2025-12-14T10:13:06.637728+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Maintenance",
-      "description": "Service Under Maintenance",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.jfrog.io"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.cucumberstudio.com"
     },
     {
