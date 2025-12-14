@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-14T08:53:05.578963+00:00",
+  "updatedAt": "2025-12-14T09:19:45.041860+00:00",
   "services": [
     {
       "name": "Azure",
@@ -27,8 +27,8 @@
     },
     {
       "name": "Elastic",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.elastic.co', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.elastic.co"
     },
     {
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.lucid.co', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.lucid.co"
     },
     {
@@ -64,7 +64,7 @@
     {
       "name": "CucumberStudio",
       "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Read timed out. (read timeout=25)",
+      "description": "Fetch error: HTTPSConnectionPool(host='cucumber.status.smartbear.com', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.cucumberstudio.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Unknown",
-      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.port.io/api/v2/summary.json",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.port.io"
     },
     {
