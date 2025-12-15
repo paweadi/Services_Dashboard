@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-15T09:41:52.144554+00:00",
+  "updatedAt": "2025-12-15T10:01:22.005628+00:00",
   "services": [
     {
       "name": "Azure",
@@ -33,8 +33,8 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.octopus.com/api/v2/summary.json",
       "source": "https://status.octopus.com"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='cucumber.status.smartbear.com', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.cucumberstudio.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.port.io', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.port.io"
     },
     {
