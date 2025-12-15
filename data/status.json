@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-15T07:34:43.539173+00:00",
+  "updatedAt": "2025-12-15T08:28:05.812543+00:00",
   "services": [
     {
       "name": "Azure",
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='cucumber.status.smartbear.com', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.cucumberstudio.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.port.io', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.port.io"
     },
     {
