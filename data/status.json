@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-15T08:59:08.190316+00:00",
+  "updatedAt": "2025-12-15T09:41:52.144554+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,14 +21,14 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.jfrog.io/api/v2/summary.json",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.jfrog.io"
     },
     {
       "name": "Elastic",
-      "status": "Unknown",
-      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.elastic.co/api/v2/summary.json",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.elastic.co"
     },
     {
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.lucid.co', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.lucid.co"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.cucumberstudio.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.port.io', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.port.io"
     },
     {
