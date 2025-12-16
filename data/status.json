@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-16T00:47:14.044289+00:00",
+  "updatedAt": "2025-12-16T02:45:27.132666+00:00",
   "services": [
     {
       "name": "Azure",
@@ -69,8 +69,8 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://status.fivetran.com"
     },
     {
