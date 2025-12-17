@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-17T07:47:47.671028+00:00",
+  "updatedAt": "2025-12-17T08:00:51.065472+00:00",
   "services": [
     {
       "name": "Azure",
@@ -27,20 +27,20 @@
     },
     {
       "name": "Elastic",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.elastic.co/api/v2/summary.json",
       "source": "https://status.elastic.co"
     },
     {
       "name": "Octopus Deploy",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.octopus.com/api/v2/summary.json",
       "source": "https://status.octopus.com"
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.lucid.co/api/v2/summary.json",
       "source": "https://status.lucid.co"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.cucumberstudio.com/api/v2/summary.json",
       "source": "https://status.cucumberstudio.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.port.io/api/v2/summary.json",
       "source": "https://status.port.io"
     },
     {
