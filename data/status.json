@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-21T11:40:19.692850+00:00",
+  "updatedAt": "2025-12-21T11:53:30.654001+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.jfrog.io', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.jfrog.io"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.port.io', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.port.io"
     },
     {
