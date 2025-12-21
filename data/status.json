@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-21T11:00:09.123940+00:00",
+  "updatedAt": "2025-12-21T11:26:05.276977+00:00",
   "services": [
     {
       "name": "Azure",
@@ -33,8 +33,8 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.octopus.com', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.octopus.com"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.cucumberstudio.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.port.io', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.port.io"
     },
     {
