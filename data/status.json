@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-21T12:36:00.131840+00:00",
+  "updatedAt": "2025-12-21T13:16:00.355078+00:00",
   "services": [
     {
       "name": "Azure",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.lucid.co/api/v2/summary.json",
       "source": "https://status.lucid.co"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.cucumberstudio.com/api/v2/summary.json",
       "source": "https://status.cucumberstudio.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Maintenance",
-      "description": "Service Under Maintenance",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.port.io/api/v2/summary.json",
       "source": "https://status.port.io"
     },
     {
