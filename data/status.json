@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-21T11:53:30.654001+00:00",
+  "updatedAt": "2025-12-21T12:36:00.131840+00:00",
   "services": [
     {
       "name": "Azure",
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.port.io', port=443): Read timed out. (read timeout=25)",
+      "status": "Maintenance",
+      "description": "Service Under Maintenance",
       "source": "https://status.port.io"
     },
     {
