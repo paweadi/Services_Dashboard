@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-21T11:26:05.276977+00:00",
+  "updatedAt": "2025-12-21T11:40:19.692850+00:00",
   "services": [
     {
       "name": "Azure",
@@ -33,14 +33,14 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.octopus.com', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.octopus.com"
     },
     {
       "name": "Lucid",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.lucid.co', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.lucid.co"
     },
     {
