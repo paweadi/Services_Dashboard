@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-27T09:56:50.777577+00:00",
+  "updatedAt": "2025-12-27T10:28:51.330414+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.jfrog.io', port=443): Max retries exceeded with url: /api/v2/summary.json (Caused by NameResolutionError(\"HTTPSConnection(host='status.jfrog.io', port=443): Failed to resolve 'status.jfrog.io' ([Errno -3] Temporary failure in name resolution)\"))",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.jfrog.io"
     },
     {
