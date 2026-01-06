@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-06T04:52:49.796167+00:00",
+  "updatedAt": "2026-01-06T05:24:44.272065+00:00",
   "services": [
     {
       "name": "Azure",
@@ -45,8 +45,8 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://jira-software.status.atlassian.com"
     },
     {
