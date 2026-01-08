@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-08T04:53:34.610128+00:00",
+  "updatedAt": "2026-01-08T05:27:07.808486+00:00",
   "services": [
     {
       "name": "Azure",
@@ -45,14 +45,14 @@
     },
     {
       "name": "Jira",
-      "status": "Unknown",
-      "description": "Fetch error: Expecting value: line 1 column 1 (char 0)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://jira-software.status.atlassian.com"
     },
     {
       "name": "Confluence",
-      "status": "Unknown",
-      "description": "Fetch error: Expecting value: line 1 column 1 (char 0)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://confluence.status.atlassian.com"
     },
     {
