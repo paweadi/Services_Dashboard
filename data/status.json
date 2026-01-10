@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-01-10T20:54:13.484219+00:00",
+  "updatedAt": "2026-01-10T21:21:34.814101+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Degraded",
-      "description": "Active - Datacenter power event - Recovery ongoing",
+      "status": "Operational",
+      "description": "No active events",
       "source": "https://azure.status.microsoft/"
     },
     {
