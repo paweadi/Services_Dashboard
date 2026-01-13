@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-13T09:37:13.700020+00:00",
+  "updatedAt": "2026-01-13T09:56:20.448833+00:00",
   "services": [
     {
       "name": "Azure",
@@ -57,8 +57,8 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Partial Outage",
+      "description": "Partial System Outage",
       "source": "https://www.githubstatus.com"
     },
     {
