@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-16T13:04:32.961631+00:00",
+  "updatedAt": "2026-01-16T13:49:02.111415+00:00",
   "services": [
     {
       "name": "Azure",
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Partial Outage",
+      "description": "Partial System Outage",
       "source": "https://status.port.io"
     },
     {
