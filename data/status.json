@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-01-27T17:01:29.935439+00:00",
+  "updatedAt": "2026-01-27T17:41:03.257446+00:00",
   "services": [
     {
       "name": "Azure",
       "status": "Operational",
-      "description": "No recent incidents in RSS",
+      "description": "No active events",
       "source": "https://azure.status.microsoft/"
     },
     {
