@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-01-27T12:43:19.552058+00:00",
+  "updatedAt": "2026-01-27T13:36:08.506925+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "No active events",
+      "status": "Degraded",
+      "description": "Active- Azure OpenAI Service issues in Sweden Central",
       "source": "https://azure.status.microsoft/"
     },
     {
