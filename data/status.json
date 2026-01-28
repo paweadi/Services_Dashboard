@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-28T14:50:21.823238+00:00",
+  "updatedAt": "2026-01-28T15:24:39.417158+00:00",
   "services": [
     {
       "name": "Azure",
@@ -57,8 +57,8 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://www.githubstatus.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://status.port.io"
     },
     {
