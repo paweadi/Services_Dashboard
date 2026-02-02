@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-02T15:58:37.422750+00:00",
+  "updatedAt": "2026-02-02T16:56:09.566645+00:00",
   "services": [
     {
       "name": "Azure",
@@ -81,8 +81,8 @@
     },
     {
       "name": "Brainboard",
-      "status": "Operational",
-      "description": "Aggregate state: operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.brainboard.co', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.brainboard.co"
     }
   ]
