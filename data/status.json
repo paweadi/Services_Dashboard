@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-03T10:23:13.044870+00:00",
+  "updatedAt": "2026-02-03T11:07:29.734757+00:00",
   "services": [
     {
       "name": "Azure",
@@ -45,20 +45,20 @@
     },
     {
       "name": "Jira",
-      "status": "Degraded",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://jira-software.status.atlassian.com"
     },
     {
       "name": "Confluence",
-      "status": "Degraded",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://confluence.status.atlassian.com"
     },
     {
       "name": "GitHub",
-      "status": "Degraded",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://www.githubstatus.com"
     },
     {
