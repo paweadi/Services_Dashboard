@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-03T21:33:45.824010+00:00",
+  "updatedAt": "2026-02-03T22:02:22.988659+00:00",
   "services": [
     {
       "name": "Azure",
@@ -33,8 +33,8 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Partial Outage",
+      "description": "Partial System Outage",
       "source": "https://status.octopus.com"
     },
     {
