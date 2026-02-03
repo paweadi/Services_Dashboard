@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-02-03T00:57:23.761066+00:00",
+  "updatedAt": "2026-02-03T03:38:54.801350+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Degraded",
-      "description": "Active - Virtual Machines and dependent services - Service management issues in multiple regions",
+      "status": "Operational",
+      "description": "No recent incidents in RSS",
       "source": "https://azure.status.microsoft/"
     },
     {
       "name": "Azure DevOps",
-      "status": "Degraded",
-      "description": "Investigating a service disruption",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "source": "https://status.dev.azure.com/"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Degraded",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.port.io"
     },
     {
