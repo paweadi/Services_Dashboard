@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-04T18:05:25.454179+00:00",
+  "updatedAt": "2026-02-04T19:05:45.143801+00:00",
   "services": [
     {
       "name": "Azure",
@@ -69,8 +69,8 @@
     },
     {
       "name": "Fivetran",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.fivetran.com', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.fivetran.com"
     },
     {
