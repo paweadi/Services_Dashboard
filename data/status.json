@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-06T21:17:01.502927+00:00",
+  "updatedAt": "2026-02-06T21:49:39.410728+00:00",
   "services": [
     {
       "name": "Azure",
@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Degraded",
+      "description": "Investigating a service disruption",
       "source": "https://status.dev.azure.com/"
     },
     {
@@ -81,8 +81,8 @@
     },
     {
       "name": "Brainboard",
-      "status": "Operational",
-      "description": "Aggregate state: operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.brainboard.co', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.brainboard.co"
     }
   ]
