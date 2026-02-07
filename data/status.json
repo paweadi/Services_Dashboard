@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-07T13:07:52.888619+00:00",
+  "updatedAt": "2026-02-07T13:53:40.653294+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "No active events",
+      "status": "Degraded",
+      "description": "Partial Recovery of ongoing Service Degradation in West US region",
       "source": "https://azure.status.microsoft/"
     },
     {
