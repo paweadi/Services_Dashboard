@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-11T18:43:02.444840+00:00",
+  "updatedAt": "2026-02-11T19:46:36.128490+00:00",
   "services": [
     {
       "name": "Azure",
@@ -27,8 +27,8 @@
     },
     {
       "name": "Elastic",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.elastic.co/api/v2/summary.json",
       "source": "https://status.elastic.co"
     },
     {
