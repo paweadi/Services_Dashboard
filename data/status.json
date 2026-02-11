@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-11T13:49:37.901186+00:00",
+  "updatedAt": "2026-02-11T14:46:14.575405+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.jfrog.io/api/v2/summary.json",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.jfrog.io"
     },
     {
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Unknown",
-      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.lucid.co/api/v2/summary.json",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.lucid.co"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.cucumberstudio.com/api/v2/summary.json",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.cucumberstudio.com"
     },
     {
