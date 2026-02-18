@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-18T17:40:53.467432+00:00",
+  "updatedAt": "2026-02-18T18:32:01.002648+00:00",
   "services": [
     {
       "name": "Azure",
@@ -27,8 +27,8 @@
     },
     {
       "name": "Elastic",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://status.elastic.co"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://www.githubstatus.com"
     },
     {
