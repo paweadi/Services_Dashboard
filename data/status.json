@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-25T08:09:10.166408+00:00",
+  "updatedAt": "2026-02-25T09:08:16.120534+00:00",
   "services": [
     {
       "name": "Azure",
       "status": "Operational",
-      "description": "No active events",
+      "description": "No recent incidents in RSS",
       "source": "https://azure.status.microsoft/"
     },
     {
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Maintenance",
-      "description": "Service Under Maintenance",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.jfrog.io"
     },
     {
