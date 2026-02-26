@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-26T11:25:05.806423+00:00",
+  "updatedAt": "2026-02-26T12:03:03.351531+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "No active events",
+      "status": "Degraded",
+      "description": "Active – Azure SQL Managed Instance impacting event in multiple regions.",
       "source": "https://azure.status.microsoft/"
     },
     {
@@ -27,8 +27,8 @@
     },
     {
       "name": "Elastic",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://status.elastic.co"
     },
     {
