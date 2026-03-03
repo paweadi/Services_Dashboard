@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-03T17:02:57.117555+00:00",
+  "updatedAt": "2026-03-03T17:57:19.812430+00:00",
   "services": [
     {
       "name": "Azure",
@@ -81,8 +81,8 @@
     },
     {
       "name": "Brainboard",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.brainboard.co', port=443): Max retries exceeded with url: /index.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='status.brainboard.co', port=443) at 0x7fe533690690>, 'Connection to status.brainboard.co timed out. (connect timeout=25)'))",
+      "status": "Operational",
+      "description": "Aggregate state: operational",
       "source": "https://status.brainboard.co"
     }
   ]
