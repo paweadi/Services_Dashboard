@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T04:25:08.545319+00:00",
+  "updatedAt": "2026-03-11T05:35:00.803122+00:00",
   "services": [
     {
       "name": "Azure",
@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Degraded",
+      "description": "Investigating a service disruption",
       "source": "https://status.dev.azure.com/"
     },
     {
@@ -69,8 +69,8 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://status.fivetran.com"
     },
     {
