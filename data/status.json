@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T23:52:07.809720+00:00",
+  "updatedAt": "2026-03-13T01:55:23.543361+00:00",
   "services": [
     {
       "name": "Azure",
@@ -51,8 +51,8 @@
     },
     {
       "name": "Confluence",
-      "status": "Degraded",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://confluence.status.atlassian.com"
     },
     {
