@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-26T17:41:37.009466+00:00",
+  "updatedAt": "2026-03-26T18:41:13.802330+00:00",
   "services": [
     {
       "name": "Azure",
@@ -81,8 +81,8 @@
     },
     {
       "name": "Brainboard",
-      "status": "Operational",
-      "description": "Aggregate state: operational",
+      "status": "Unknown",
+      "description": "Fetch error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "source": "https://status.brainboard.co"
     }
   ]
