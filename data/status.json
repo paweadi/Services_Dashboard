@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-31T05:53:21.866333+00:00",
+  "updatedAt": "2026-03-31T07:17:12.742105+00:00",
   "services": [
     {
       "name": "Azure",
@@ -81,8 +81,8 @@
     },
     {
       "name": "Brainboard",
-      "status": "Operational",
-      "description": "Aggregate state: operational",
+      "status": "Major Outage",
+      "description": "Aggregate state: downtime",
       "source": "https://status.brainboard.co"
     }
   ]
