@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-08T06:06:29.611061+00:00",
+  "updatedAt": "2026-04-08T07:52:06.153108+00:00",
   "services": [
     {
       "name": "Azure",
@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "advisory",
+      "description": "Service maintenance is in effect",
       "source": "https://status.dev.azure.com/"
     },
     {
@@ -45,14 +45,14 @@
     },
     {
       "name": "Jira",
-      "status": "Partial Outage",
-      "description": "Partial System Outage",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://jira-software.status.atlassian.com"
     },
     {
       "name": "Confluence",
-      "status": "Partial Outage",
-      "description": "Partial System Outage",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://confluence.status.atlassian.com"
     },
     {
