@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-09T05:28:44.443127+00:00",
+  "updatedAt": "2026-04-09T07:02:21.946317+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,26 +21,26 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.jfrog.io/api/v2/summary.json",
       "source": "https://status.jfrog.io"
     },
     {
       "name": "Elastic",
-      "status": "Partial Outage",
-      "description": "Partial System Outage",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.elastic.co/api/v2/summary.json",
       "source": "https://status.elastic.co"
     },
     {
       "name": "Octopus Deploy",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.octopus.com/api/v2/summary.json",
       "source": "https://status.octopus.com"
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.lucid.co/api/v2/summary.json",
       "source": "https://status.lucid.co"
     },
     {
@@ -63,20 +63,20 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.cucumberstudio.com/api/v2/summary.json",
       "source": "https://status.cucumberstudio.com"
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.fivetran.com/api/v2/summary.json",
       "source": "https://status.fivetran.com"
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 503 Server Error: Service Unavailable for url: https://status.port.io/api/v2/summary.json",
       "source": "https://status.port.io"
     },
     {
