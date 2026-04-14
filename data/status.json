@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-14T11:35:42.165793+00:00",
+  "updatedAt": "2026-04-14T12:44:23.945172+00:00",
   "services": [
     {
       "name": "Azure",
@@ -45,14 +45,14 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Partial Outage",
+      "description": "Partial System Outage",
       "source": "https://jira-software.status.atlassian.com"
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Partial Outage",
+      "description": "Partial System Outage",
       "source": "https://confluence.status.atlassian.com"
     },
     {
