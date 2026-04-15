@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15T16:46:08.795448+00:00",
+  "updatedAt": "2026-04-15T17:54:59.227128+00:00",
   "services": [
     {
       "name": "Azure",
@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Major Outage",
-      "description": "Investigating a service outage",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "source": "https://status.dev.azure.com/"
     },
     {
