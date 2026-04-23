@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-23T18:51:09.609012+00:00",
+  "updatedAt": "2026-04-23T20:03:04.642504+00:00",
   "services": [
     {
       "name": "Azure",
@@ -57,8 +57,8 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://www.githubstatus.com"
     },
     {
@@ -81,8 +81,8 @@
     },
     {
       "name": "Brainboard",
-      "status": "Operational",
-      "description": "Aggregate state: operational",
+      "status": "Unknown",
+      "description": "Fetch error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "source": "https://status.brainboard.co"
     }
   ]
