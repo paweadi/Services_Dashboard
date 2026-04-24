@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-04-24T14:08:47.799448+00:00",
+  "updatedAt": "2026-04-24T15:37:53.896736+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "No active events",
+      "status": "Degraded",
+      "description": "Active - Multiservice impact for Azure Workloads in East US",
       "source": "https://azure.status.microsoft/"
     },
     {
