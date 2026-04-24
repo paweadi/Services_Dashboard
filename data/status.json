@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-04-24T17:38:10.751536+00:00",
+  "updatedAt": "2026-04-24T18:30:06.407068+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Degraded",
-      "description": "Active - Multiservice impact for Azure Workloads in East US",
+      "status": "Operational",
+      "description": "No recent incidents in RSS",
       "source": "https://azure.status.microsoft/"
     },
     {
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Degraded",
-      "description": "Minor Service Outage",
+      "status": "Maintenance",
+      "description": "Service Under Maintenance",
       "source": "https://status.jfrog.io"
     },
     {
