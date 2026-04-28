@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T13:02:04.486802+00:00",
+  "updatedAt": "2026-04-28T15:45:18.386079+00:00",
   "services": [
     {
       "name": "Azure",
@@ -57,8 +57,8 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://www.githubstatus.com"
     },
     {
@@ -69,14 +69,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://status.fivetran.com"
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://status.port.io"
     },
     {
