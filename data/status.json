@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-07T23:38:29.468754+00:00",
+  "updatedAt": "2026-05-08T01:25:37.186957+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://status.jfrog.io"
     },
     {
@@ -69,8 +69,8 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://status.fivetran.com"
     },
     {
