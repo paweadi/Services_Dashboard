@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-05-29T08:33:14.014893+00:00",
+  "updatedAt": "2026-05-29T11:53:04.545865+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Degraded",
-      "description": "Active – Multi Service degradation in West US 2 region.",
+      "status": "Operational",
+      "description": "No recent incidents in RSS",
       "source": "https://azure.status.microsoft/"
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Degraded",
+      "description": "Investigating a service disruption",
       "source": "https://status.dev.azure.com/"
     },
     {
