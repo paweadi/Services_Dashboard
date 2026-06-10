@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T16:24:01.725358+00:00",
+  "updatedAt": "2026-06-10T19:11:49.807944+00:00",
   "services": [
     {
       "name": "Azure",
@@ -57,8 +57,8 @@
     },
     {
       "name": "GitHub",
-      "status": "Partial Outage",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://www.githubstatus.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Partial Outage",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.port.io"
     },
     {
