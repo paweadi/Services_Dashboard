@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T21:30:07.498305+00:00",
+  "updatedAt": "2026-06-10T23:12:36.984808+00:00",
   "services": [
     {
       "name": "Azure",
@@ -16,67 +16,67 @@
     {
       "name": "Azure Databricks",
       "status": "Unknown",
-      "description": "Fetch error: 404 Client Error: Not Found for url: https://status.azuredatabricks.net/api/v2/summary.json",
+      "description": "Fetch error: 403 Client Error: Forbidden for url: https://status.azuredatabricks.net/api/v2/summary.json",
       "source": "https://status.azuredatabricks.net"
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://status.jfrog.io/api/v2/summary.json",
       "source": "https://status.jfrog.io"
     },
     {
       "name": "Elastic",
-      "status": "Partial Outage",
-      "description": "Partial System Outage",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://status.elastic.co/api/v2/summary.json",
       "source": "https://status.elastic.co"
     },
     {
       "name": "Octopus Deploy",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://status.octopus.com/api/v2/summary.json",
       "source": "https://status.octopus.com"
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://status.lucid.co/api/v2/summary.json",
       "source": "https://status.lucid.co"
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://jira-software.status.atlassian.com/api/v2/summary.json",
       "source": "https://jira-software.status.atlassian.com"
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://confluence.status.atlassian.com/api/v2/summary.json",
       "source": "https://confluence.status.atlassian.com"
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://www.githubstatus.com/api/v2/summary.json",
       "source": "https://www.githubstatus.com"
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://status.cucumberstudio.com/api/v2/summary.json",
       "source": "https://status.cucumberstudio.com"
     },
     {
       "name": "Fivetran",
-      "status": "Degraded",
-      "description": "Minor Service Outage",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://status.fivetran.com/api/v2/summary.json",
       "source": "https://status.fivetran.com"
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 405 Client Error: Not Allowed for url: https://status.port.io/api/v2/summary.json",
       "source": "https://status.port.io"
     },
     {
