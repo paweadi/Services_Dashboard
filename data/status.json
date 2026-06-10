@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T12:31:02.179906+00:00",
+  "updatedAt": "2026-06-10T16:24:01.725358+00:00",
   "services": [
     {
       "name": "Azure",
@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Degraded",
-      "description": "Investigating a service disruption",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "source": "https://status.dev.azure.com/"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Partial Outage",
+      "description": "Partial System Outage",
       "source": "https://www.githubstatus.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Partial Outage",
+      "description": "Partial System Outage",
       "source": "https://status.port.io"
     },
     {
