@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T05:11:26.233350+00:00",
+  "updatedAt": "2026-06-12T09:13:52.674263+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Maintenance",
+      "description": "Service Under Maintenance",
       "source": "https://status.jfrog.io"
     },
     {
@@ -51,8 +51,8 @@
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://confluence.status.atlassian.com"
     },
     {
