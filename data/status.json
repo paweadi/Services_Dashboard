@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T23:49:05.523900+00:00",
+  "updatedAt": "2026-06-15T02:40:26.682525+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 418 Client Error: Unknown for url: https://status.jfrog.io/api/v2/summary.json",
       "source": "https://status.jfrog.io"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 418 Client Error: Unknown for url: https://status.cucumberstudio.com/api/v2/summary.json",
       "source": "https://status.cucumberstudio.com"
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: 418 Client Error: Unknown for url: https://status.port.io/api/v2/summary.json",
       "source": "https://status.port.io"
     },
     {
