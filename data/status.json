@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T06:29:05.196340+00:00",
+  "updatedAt": "2026-06-18T10:58:40.637455+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Maintenance",
+      "description": "Service Under Maintenance",
       "source": "https://status.jfrog.io"
     },
     {
