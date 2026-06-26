@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T15:03:42.289502+00:00",
+  "updatedAt": "2026-06-26T17:07:41.605492+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.jfrog.io', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.jfrog.io"
     },
     {
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.lucid.co', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.lucid.co"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Read timed out. (read timeout=25)",
       "source": "https://status.cucumberstudio.com"
     },
     {
