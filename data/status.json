@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T20:14:37.440546+00:00",
+  "updatedAt": "2026-07-16T21:28:07.602817+00:00",
   "services": [
     {
       "name": "Azure",
@@ -57,8 +57,8 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Partially Degraded Service",
       "source": "https://www.githubstatus.com"
     },
     {
