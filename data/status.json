@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T09:10:46.372771+00:00",
+  "updatedAt": "2026-07-18T10:41:50.490338+00:00",
   "services": [
     {
       "name": "Azure",
@@ -69,8 +69,8 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: HTTPSConnectionPool(host='status.fivetran.com', port=443): Max retries exceeded with url: /api/v2/summary.json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))",
       "source": "https://status.fivetran.com"
     },
     {
