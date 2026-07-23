@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-23T20:11:19.970991+00:00",
+  "updatedAt": "2026-07-23T21:29:31.155409+00:00",
   "services": [
     {
       "name": "Azure",
-      "status": "Degraded",
-      "description": "Issues connecting to resources in West US",
+      "status": "Operational",
+      "description": "No active events",
       "source": "https://azure.status.microsoft/"
     },
     {
       "name": "Azure DevOps",
-      "status": "Degraded",
-      "description": "Investigating a service disruption",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "source": "https://status.dev.azure.com/"
     },
     {
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Degraded",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.jfrog.io"
     },
     {
