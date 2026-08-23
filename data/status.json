@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T09:25:58.286855+00:00",
+  "updatedAt": "2026-08-23T09:53:11.758033+00:00",
   "services": [
     {
       "name": "Azure",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Unknown",
-      "description": "Fetch error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.lucid.co"
     },
     {
