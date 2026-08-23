@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T08:52:44.785406+00:00",
+  "updatedAt": "2026-08-23T09:25:58.286855+00:00",
   "services": [
     {
       "name": "Azure",
@@ -21,8 +21,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Maintenance",
-      "description": "Service Under Maintenance",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.jfrog.io"
     },
     {
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Fetch error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "source": "https://status.lucid.co"
     },
     {
