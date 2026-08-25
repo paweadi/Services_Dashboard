@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T01:45:52.652576+00:00",
+  "updatedAt": "2026-08-25T02:46:45.323761+00:00",
   "services": [
     {
       "name": "Azure",
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Fetch error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.cucumberstudio.com"
     },
     {
