@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T12:03:23.791062+00:00",
+  "updatedAt": "2026-08-26T13:11:49.656282+00:00",
   "services": [
     {
       "name": "Azure",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.lucid.co', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.lucid.co"
     },
     {
@@ -63,8 +63,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Fetch error: HTTPSConnectionPool(host='status.cucumberstudio.com', port=443): Read timed out. (read timeout=25)",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "source": "https://status.cucumberstudio.com"
     },
     {
