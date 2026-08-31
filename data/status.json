@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T17:06:53.326936+00:00",
+  "updatedAt": "2026-08-31T21:53:45.685182+00:00",
   "services": [
     {
       "name": "Azure",
@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Degraded",
-      "description": "Investigating a service disruption",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "source": "https://status.dev.azure.com/"
     },
     {
@@ -45,8 +45,8 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Degraded",
+      "description": "Minor Service Outage",
       "source": "https://jira-software.status.atlassian.com"
     },
     {
